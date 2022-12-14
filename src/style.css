@@ -1,0 +1,34 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 40px;
+    text-align: center;
+    background-image: linear-gradient(#FF928B, #FFAC81);
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.flex-container{
+    display: grid;
+    align-items: center;
+    grid-template: auto / auto auto;
+    gap: 50px;
+}
+
+.flex-container > div{
+    padding: 20px 20px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+}
